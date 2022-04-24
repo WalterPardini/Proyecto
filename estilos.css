@@ -36,6 +36,27 @@ header #logo {
     margin: 5px;
 } 
 
+.botones{
+	min-width:700px;
+	display:flex;
+	justify-content: space-around;
+}
+
+.botones a{
+	text-decoration:none;
+	font-size:28px;
+	width:60px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	transition: all .4s ease-in-out;
+}
+
+.botones a:hover{
+	transform: scale(1.2);
+}
+
+
 .navegacion{
 	width: 1400px;
 	margin: 30px auto;
@@ -89,6 +110,7 @@ header #logo {
 	visibility: visible;
 	opacity: 1;
 }
+
 
 footer p {
     text-align: center;
