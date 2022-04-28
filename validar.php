@@ -50,8 +50,12 @@
                 default:
             }
         }else{
-            // no existe el usuario
-            echo "Nombre de usuario o contraseña incorrecto";
+            ?>
+            <?php
+            ?>
+            <h1 class="bad">ERROR DE AUTENTIFICACION</h1>
+            <?php
+        
         }
         
 

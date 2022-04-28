@@ -3,17 +3,15 @@
     session_start();
 
     if(!isset($_SESSION['rol'])){
-        header('location: login.php');
+        header('location: ingreso.php');
     }else{
         if($_SESSION['rol'] != 1){
-            header('location: login.php');
+            header('location: ingreso.php');
         }
     }
-
-
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
